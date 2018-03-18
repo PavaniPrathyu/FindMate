@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Login"
+        android:id="@+id/login"/>
+    <item android:title="My Profile"
+        android:id="@+id/notification"/>
+    <item android:title="My Posts"
+        android:id="@+id/myProfile"/>
+
+</menu>

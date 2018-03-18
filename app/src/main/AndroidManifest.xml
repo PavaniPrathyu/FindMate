@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.personal.three_dot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.support.multidex.MultiDexApplication" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/connect"
+        android:label="@string/FindMates"
+        android:roundIcon="@mipmap/connect"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sign_up"
+            android:parentActivityName=".LoginScreen" />
+        <activity android:name=".MyAccount" />
+        <activity android:name=".EditDetails" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".FabScreen" />
+        <activity android:name=".options" />
+        <activity android:name=".FabScreen2" />
+        <activity android:name=".options2" />
+        <activity android:name=".FabScreen3" />
+        <activity android:name=".options3" />
+        <activity android:name=".PostActivity2" />
+        <activity android:name=".PostActivity3"></activity>
+    </application>
+
+</manifest>

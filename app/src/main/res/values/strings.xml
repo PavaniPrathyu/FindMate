@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Three_dot</string>
+    <string name="FindMates">FindMates</string>
+    <string name="menu_refresh">menu_refresh</string>
+    <string name="checkbox_text">checkbox_text</string>
+    <string name="text">text</string>
+</resources>
